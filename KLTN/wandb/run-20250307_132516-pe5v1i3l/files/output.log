@@ -1,0 +1,41 @@
+  0%|                                                                                 | 0/30009 [00:00<?, ?it/s][WARNING|logging.py:329] 2025-03-07 13:25:19,420 >> Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+  0%|▏                                                                    | 76/30009 [10:38<66:04:49,  7.95s/it]Traceback (most recent call last):
+  File "D:\KLTN\run_translation.py", line 706, in <module>
+    main()
+  File "D:\KLTN\run_translation.py", line 621, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 2241, in train
+    return inner_training_loop(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 2548, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 3740, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\accelerate\accelerator.py", line 2248, in backward
+    loss.backward(**kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "D:\KLTN\run_translation.py", line 706, in <module>
+    main()
+  File "D:\KLTN\run_translation.py", line 621, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 2241, in train
+    return inner_training_loop(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 2548, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 3740, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\accelerate\accelerator.py", line 2248, in backward
+    loss.backward(**kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

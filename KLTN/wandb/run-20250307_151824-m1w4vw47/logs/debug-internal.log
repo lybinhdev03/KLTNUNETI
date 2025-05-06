@@ -1,0 +1,30 @@
+{"time":"2025-03-07T15:18:24.6501772+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"D:\\KLTN\\wandb\\run-20250307_151824-m1w4vw47\\logs\\debug-core.log"}
+{"time":"2025-03-07T15:18:24.76875+07:00","level":"INFO","msg":"created new stream","id":"m1w4vw47"}
+{"time":"2025-03-07T15:18:24.7692684+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"m1w4vw47"}
+{"time":"2025-03-07T15:18:24.7697849+07:00","level":"INFO","msg":"sender: started","stream_id":"m1w4vw47"}
+{"time":"2025-03-07T15:18:24.7697849+07:00","level":"INFO","msg":"stream: started","id":"m1w4vw47"}
+{"time":"2025-03-07T15:18:24.7692684+07:00","level":"INFO","msg":"handler: started","stream_id":"m1w4vw47"}
+{"time":"2025-03-07T15:18:25.2992866+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T15:24:43.2383141+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/m1w4vw47/file_stream\": read tcp 192.168.1.7:45304->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-03-07T15:25:10.7273958+07:00","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: context deadline exceeded (Client.Timeout or context cancellation while reading body)"}
+{"time":"2025-03-07T15:25:40.8187824+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-07T15:26:12.8831693+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-07T15:26:37.1053259+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/m1w4vw47/file_stream\": read tcp 192.168.1.7:46474->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-03-07T15:26:47.8134844+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-07T15:29:13.3210906+07:00","level":"ERROR","msg":"filestream: json decode error: read tcp 192.168.1.7:47647->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-03-07T15:29:44.5922927+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/m1w4vw47/file_stream\": unexpected EOF"}
+{"time":"2025-03-07T15:31:07.5102624+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/m1w4vw47/file_stream\": read tcp 192.168.1.7:49779->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-03-07T15:32:10.7379302+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-07T15:32:28.4052001+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/m1w4vw47/file_stream\": read tcp 192.168.1.7:50913->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-03-07T15:32:43.1581927+07:00","level":"ERROR","msg":"sender: sendConfig:","error":"net/http: request canceled (Client.Timeout or context cancellation while reading body)"}
+{"time":"2025-03-07T15:32:55.7658891+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/m1w4vw47/file_stream\": unexpected EOF"}
+{"time":"2025-03-07T15:33:13.1589557+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-07T15:33:45.5442595+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-07T15:34:19.742864+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-07T15:34:31.7391141+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/m1w4vw47/file_stream\": read tcp 192.168.1.7:52218->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-03-07T15:34:47.9567321+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/m1w4vw47/file_stream\": unexpected EOF"}
+{"time":"2025-03-07T15:35:08.4319268+07:00","level":"ERROR","msg":"sender: sendConfig:","error":"context deadline exceeded (Client.Timeout or context cancellation while reading body)"}
+{"time":"2025-03-07T15:35:11.8644479+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/m1w4vw47/file_stream\": unexpected EOF"}
+{"time":"2025-03-07T15:38:13.1941261+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-07T15:38:42.0004956+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/m1w4vw47/file_stream\": unexpected EOF"}
+{"time":"2025-03-07T15:38:45.2375368+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}

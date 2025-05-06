@@ -1,0 +1,93 @@
+  0%|                                                                                                                          | 0/50015 [00:00<?, ?it/s][WARNING|logging.py:329] 2025-02-26 21:11:53,370 >> Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+  0%|                                                                                                              | 40/50015 [03:26<60:00:22,  4.32s/it]Traceback (most recent call last):
+  File "D:\KLTN\run_translation.py", line 707, in <module>
+    main()
+  File "D:\KLTN\run_translation.py", line 622, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 2241, in train
+    return inner_training_loop(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 2548, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 3698, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 3759, in compute_loss
+    outputs = model(**inputs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\mt5\modeling_mt5.py", line 1919, in forward
+    decoder_outputs = self.decoder(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\mt5\modeling_mt5.py", line 1111, in forward
+    layer_outputs = layer_module(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\mt5\modeling_mt5.py", line 553, in forward
+    self_attention_outputs = self.layer[0](
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\mt5\modeling_mt5.py", line 469, in forward
+    attention_output = self.SelfAttention(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\mt5\modeling_mt5.py", line 427, in forward
+    attn_weights = nn.functional.softmax(scores.float(), dim=-1).type_as(scores)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\functional.py", line 2140, in softmax
+    ret = input.softmax(dim)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "D:\KLTN\run_translation.py", line 707, in <module>
+    main()
+  File "D:\KLTN\run_translation.py", line 622, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 2241, in train
+    return inner_training_loop(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 2548, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 3698, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 3759, in compute_loss
+    outputs = model(**inputs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\mt5\modeling_mt5.py", line 1919, in forward
+    decoder_outputs = self.decoder(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\mt5\modeling_mt5.py", line 1111, in forward
+    layer_outputs = layer_module(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\mt5\modeling_mt5.py", line 553, in forward
+    self_attention_outputs = self.layer[0](
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\mt5\modeling_mt5.py", line 469, in forward
+    attention_output = self.SelfAttention(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\mt5\modeling_mt5.py", line 427, in forward
+    attn_weights = nn.functional.softmax(scores.float(), dim=-1).type_as(scores)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\functional.py", line 2140, in softmax
+    ret = input.softmax(dim)
+KeyboardInterrupt

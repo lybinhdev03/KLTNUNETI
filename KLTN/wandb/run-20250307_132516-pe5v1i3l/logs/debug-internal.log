@@ -1,0 +1,19 @@
+{"time":"2025-03-07T13:25:17.1967611+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"D:\\KLTN\\wandb\\run-20250307_132516-pe5v1i3l\\logs\\debug-core.log"}
+{"time":"2025-03-07T13:25:18.1559699+07:00","level":"INFO","msg":"created new stream","id":"pe5v1i3l"}
+{"time":"2025-03-07T13:25:18.1560256+07:00","level":"INFO","msg":"stream: started","id":"pe5v1i3l"}
+{"time":"2025-03-07T13:25:18.1560256+07:00","level":"INFO","msg":"sender: started","stream_id":"pe5v1i3l"}
+{"time":"2025-03-07T13:25:18.1565803+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"pe5v1i3l"}
+{"time":"2025-03-07T13:25:18.1560256+07:00","level":"INFO","msg":"handler: started","stream_id":"pe5v1i3l"}
+{"time":"2025-03-07T13:25:18.6046876+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T13:33:10.5013835+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/pe5v1i3l/file_stream\": read tcp 192.168.1.7:29510->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-03-07T13:33:48.8970335+07:00","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: net/http: request canceled (Client.Timeout or context cancellation while reading body)"}
+{"time":"2025-03-07T13:35:16.5546344+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/pe5v1i3l/file_stream\": read tcp 192.168.1.7:30581->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-03-07T13:35:50.8999129+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lybinhdeveloper-lybinhdev/huggingface/pe5v1i3l/file_stream\": unexpected EOF"}
+{"time":"2025-03-07T13:36:02.65386+07:00","level":"INFO","msg":"stream: closing","id":"pe5v1i3l"}
+{"time":"2025-03-07T13:36:02.6553064+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T13:36:02.6571874+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T13:36:04.0700169+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T13:36:04.4523629+07:00","level":"INFO","msg":"handler: closed","stream_id":"pe5v1i3l"}
+{"time":"2025-03-07T13:36:04.4523629+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pe5v1i3l"}
+{"time":"2025-03-07T13:36:04.4523629+07:00","level":"INFO","msg":"sender: closed","stream_id":"pe5v1i3l"}
+{"time":"2025-03-07T13:36:04.4523629+07:00","level":"INFO","msg":"stream: closed","id":"pe5v1i3l"}

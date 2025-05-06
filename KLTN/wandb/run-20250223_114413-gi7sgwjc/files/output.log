@@ -1,0 +1,2 @@
+  0%|                                                                                                       | 0/3125 [00:00<?, ?it/s][WARNING|logging.py:329] 2025-02-23 11:45:00,416 >> Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+  2%|█▉                                                                                         | 65/3125 [46:59<30:35:28, 35.99s/it]

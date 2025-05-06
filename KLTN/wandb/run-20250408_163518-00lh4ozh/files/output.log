@@ -1,0 +1,55 @@
+  0%|                                                                                                                                                                    | 0/29859 [00:00<?, ?it/s][WARNING|logging.py:329] 2025-04-08 16:35:20,817 >> Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+  7%|█████████▉                                                                                                                                          | 2000/29859 [4:36:47<63:51:32,  8.25s/it][INFO|trainer.py:3942] 2025-04-08 21:12:07,505 >> Saving model checkpoint to mt5-vietnamese-lao\checkpoint-2000
+{'loss': 26.8224, 'grad_norm': 7408.19921875, 'learning_rate': 1.6744809109176158e-07, 'epoch': 0.01}
+{'loss': 28.2807, 'grad_norm': 7632.40673828125, 'learning_rate': 3.3489618218352317e-07, 'epoch': 0.02}
+{'loss': 27.4513, 'grad_norm': 6055.287109375, 'learning_rate': 5.023442732752847e-07, 'epoch': 0.03}
+{'loss': 27.7516, 'grad_norm': 12698.3056640625, 'learning_rate': 6.697923643670463e-07, 'epoch': 0.04}
+{'loss': 28.6336, 'grad_norm': 11548.2099609375, 'learning_rate': 8.372404554588079e-07, 'epoch': 0.05}
+{'loss': 27.2441, 'grad_norm': 6332.85009765625, 'learning_rate': 1.0046885465505693e-06, 'epoch': 0.06}
+{'loss': 26.9159, 'grad_norm': 11814.3369140625, 'learning_rate': 1.172136637642331e-06, 'epoch': 0.07}
+{'loss': 27.1839, 'grad_norm': 21592.41796875, 'learning_rate': 1.3395847287340927e-06, 'epoch': 0.08}
+{'loss': 26.0047, 'grad_norm': 2905.348388671875, 'learning_rate': 1.507032819825854e-06, 'epoch': 0.09}
+{'loss': 24.7314, 'grad_norm': 2397.140625, 'learning_rate': 1.6744809109176158e-06, 'epoch': 0.1}
+{'loss': 23.919, 'grad_norm': 10180.6376953125, 'learning_rate': 1.8419290020093771e-06, 'epoch': 0.11}
+{'loss': 25.2053, 'grad_norm': 5722.146484375, 'learning_rate': 2.0093770931011387e-06, 'epoch': 0.12}
+{'loss': 23.902, 'grad_norm': 10305.7236328125, 'learning_rate': 2.1768251841929003e-06, 'epoch': 0.13}
+{'loss': 23.4282, 'grad_norm': 40620.28515625, 'learning_rate': 2.344273275284662e-06, 'epoch': 0.14}
+{'loss': 23.0073, 'grad_norm': 2104.1279296875, 'learning_rate': 2.5117213663764234e-06, 'epoch': 0.15}
+{'loss': 21.9864, 'grad_norm': 1214.2091064453125, 'learning_rate': 2.6791694574681854e-06, 'epoch': 0.16}
+{'loss': 21.3922, 'grad_norm': 7033.46435546875, 'learning_rate': 2.846617548559947e-06, 'epoch': 0.17}
+{'loss': 20.3314, 'grad_norm': 3736.630859375, 'learning_rate': 3.014065639651708e-06, 'epoch': 0.18}
+{'loss': 19.3468, 'grad_norm': 1516.6214599609375, 'learning_rate': 3.1815137307434696e-06, 'epoch': 0.19}
+{'loss': 19.233, 'grad_norm': 3930.385498046875, 'learning_rate': 3.3489618218352316e-06, 'epoch': 0.2}
+[INFO|configuration_utils.py:423] 2025-04-08 21:12:07,548 >> Configuration saved in mt5-vietnamese-lao\checkpoint-2000\config.json
+[INFO|configuration_utils.py:909] 2025-04-08 21:12:07,561 >> Configuration saved in mt5-vietnamese-lao\checkpoint-2000\generation_config.json
+[INFO|modeling_utils.py:3040] 2025-04-08 21:12:09,719 >> Model weights saved in mt5-vietnamese-lao\checkpoint-2000\model.safetensors
+[INFO|tokenization_utils_base.py:2500] 2025-04-08 21:12:09,909 >> tokenizer config file saved in mt5-vietnamese-lao\checkpoint-2000\tokenizer_config.json
+[INFO|tokenization_utils_base.py:2509] 2025-04-08 21:12:09,911 >> Special tokens file saved in mt5-vietnamese-lao\checkpoint-2000\special_tokens_map.json
+  7%|███████████                                                                                                                                         | 2228/29859 [5:12:01<67:11:10,  8.75s/it]Traceback (most recent call last):
+{'loss': 18.1642, 'grad_norm': 1613.8248291015625, 'learning_rate': 3.516409912926993e-06, 'epoch': 0.21}
+{'loss': 17.7009, 'grad_norm': 2190.567626953125, 'learning_rate': 3.6838580040187543e-06, 'epoch': 0.22}
+  File "D:\KLTN\run_translation.py", line 706, in <module>
+    main()
+  File "D:\KLTN\run_translation.py", line 621, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 2241, in train
+    return inner_training_loop(
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 2548, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 3698, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\trainer.py", line 3759, in compute_loss
+    outputs = model(**inputs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\mt5\modeling_mt5.py", line 1948, in forward
+    lm_logits = self.lm_head(sequence_output)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\lybinhdev\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
